@@ -1,4 +1,4 @@
-package Sorting.InsertionSort;
+package Sorting.InsertionSort.Java;
 
 public class InsertionSort {
     public static void insertionSort(int[] A, int n) {

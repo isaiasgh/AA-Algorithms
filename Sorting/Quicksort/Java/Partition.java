@@ -1,4 +1,4 @@
-package Sorting.Quicksort;
+package Sorting.Quicksort.Java;
 
 public class Partition {
     public static int partition(int[] A, int p, int r) {

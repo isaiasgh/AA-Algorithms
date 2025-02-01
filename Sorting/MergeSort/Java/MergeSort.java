@@ -1,4 +1,4 @@
-package Sorting.MergeSort;
+package Sorting.MergeSort.Java;
 
 public class MergeSort {
     public static void mergeSort(int[] A, int left, int right) {

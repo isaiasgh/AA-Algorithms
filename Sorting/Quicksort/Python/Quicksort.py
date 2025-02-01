@@ -1,4 +1,4 @@
-from Sorting.Quicksort.Partition import Partition
+from Sorting.Quicksort.Python import Partition
 
 def Quicksort (A, p, r):
     if p < r:

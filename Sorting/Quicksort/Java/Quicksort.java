@@ -1,4 +1,4 @@
-package Sorting.Quicksort;
+package Sorting.Quicksort.Java;
 
 public class Quicksort {
     public static void quicksort(int[] A, int p, int r) {

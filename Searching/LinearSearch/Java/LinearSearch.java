@@ -1,4 +1,4 @@
-package Searching.LinearSearch;
+package Searching.LinearSearch.Java;
 
 public class LinearSearch {
     public static int linearSearch(int[] arr, int target) {

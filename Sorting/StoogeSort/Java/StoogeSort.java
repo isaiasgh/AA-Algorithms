@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Java;
 
 public class StoogeSort {
     public static void stoogeSort(int[] A, int p, int r) {
