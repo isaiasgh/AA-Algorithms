@@ -1,4 +1,4 @@
-# Binary Search Algorithm
+# Binary Search
 
 ## Introduction
 
