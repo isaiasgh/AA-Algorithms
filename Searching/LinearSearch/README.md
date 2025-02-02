@@ -13,11 +13,30 @@
 ### 1. Iterative & Recursive Linear Search
 
 - **Best Case**: O(1)
-  - The best case occurs when the target is found at the first position in the array.
+
+  The best case occurs when the target is found at the first position in the array.
+
+  **Example Input (the target is at the first position):**
+
+  ```java
+  int target = 10;
+  int[] arr = {10, 20, 30, 40, 50};
+  ```
+
 - **Worst Case**: O(n)
-  - The worst case happens when the target is not in the array, or it is at the last position.
+
+  The worst case happens when the target is not in the array, or it is at the last position.
+
+  **Example Input (the target is at the last position):**
+
+  ```java
+  int target = 55;
+  int[] arr = [5, 15, 25, 35, 45, 55];
+  ```
+
 - **Average Case**: O(n)
-  - On average, the algorithm will need to traverse half of the array, making the complexity linear.
+
+  On average, the algorithm will need to traverse half of the array, making the complexity linear.
 
 ## Differences between Iterative and Recursive Implementations
 

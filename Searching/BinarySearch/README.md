@@ -21,11 +21,37 @@ The **recursive** approach divides the array into two halves and calls the funct
 ### 1. Iterative & Recursive Binary Search
 
 - **Best Case**: O(1)
-  - This occurs when the middle element is the target on the first check.
+
+  This occurs when the middle element is the target on the first check.
+
+  **Example Input (middle element is the target):**
+
+  ```java
+  int target = 10;
+  int[] arr = {1, 3, 5, 7, 9, 11, 13};
+  ```
+
 - **Average Case**: O(log n)
-  - The array is halved.
+
+  The array is halved.
+
+  **Example Input:**
+
+  ```java
+  int target = 10;
+  int[] arr = {2, 4, 6, 8, 10, 12, 14, 16};
+  ```
+
 - **Worst Case**: O(log n)
-  - The algorithm continues halving the array until the target is found or the search space is empty.
+
+  The algorithm continues halving the array until the target is found or the search space is empty.
+
+  **Example Input (target not in the array):**
+
+  ```java
+  int target = 11;
+  int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  ```
 
 ## Differences between Iterative and Recursive Implementations
 
